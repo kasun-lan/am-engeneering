@@ -127,7 +127,7 @@
 			loop:true,
 			margin:0,
 			nav:true,
-			autoHeight: true,
+			autoHeight: false,
 			smartSpeed: 500,
 			autoplay: 6000,
 			navText: [ '<span class="flaticon-back-5"></span>', '<span class="flaticon-next-7"></span>' ],

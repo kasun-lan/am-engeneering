@@ -22,6 +22,14 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
+	<link rel="preload" as="image" href="images/main-slider/image-11.webp" fetchpriority="high">
+	<style>
+		/* CLS: width/height set intrinsic ratio; global img max-width keeps layout responsive */
+		img[width][height] {
+			height: auto;
+		}
+	</style>
+
 	<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 	<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 
@@ -71,8 +79,9 @@
 					<div class="clearfix">
 
 						<div class="pull-left logo-box">
-							<div class="logo"><a href="index.html"><img style="height: 100px;"
-										src="images/new4.png"></a>
+							<div class="logo"><a href="index.html"><img style="height: 100px; width: auto;"
+										src="images/new4.png" width="895" height="267" alt="AM Engineering"
+										decoding="async" fetchpriority="high"></a>
 							</div>
 						</div>
 
@@ -197,8 +206,9 @@
 				<div class="auto-container clearfix">
 					<!--Logo-->
 					<div class="logo pull-left">
-						<a href="index.html" class="img-responsive"  ><img style="height: 100px;" src="images/new5.png" alt=""
-								title=""></a>
+						<a href="index.html" class="img-responsive"><img style="height: 100px; width: auto;"
+								src="images/new5.png" width="1393" height="482" alt="AM Engineering"
+								decoding="async"></a>
 					</div>
 
 					<!--Right Col-->
@@ -333,7 +343,8 @@
 					<div class="image-column col-lg-6 col-md-12 col-sm-12">
 						<div class="inner-column wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
 							<div class="image">
-								<img src="images/botteling.jpg" alt="" />
+								<img src="images/botteling.jpg" alt="Industrial bottling equipment" width="453"
+									height="500" decoding="async" />
 							</div>
 						</div>
 					</div>
@@ -435,7 +446,8 @@
                 <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="image">
                         <a href="distillation-plants.html">
-                            <img src="images/distillation1.jpg" alt="Distillation Plants">
+                            <img src="images/distillation1.jpg" alt="Distillation Plants" width="500" height="281"
+                                decoding="async" loading="lazy">
                         </a>
                     </div>
                     <div class="lower-content">
@@ -456,7 +468,8 @@
                 <div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="image">
                         <a href="botteling-machines.html">
-                            <img src="images/bottle1.png" alt="Bottling Machines">
+                            <img src="images/bottle1.png" alt="Bottling Machines" width="500" height="312"
+                                decoding="async" loading="lazy">
                         </a>
                     </div>
                     <div class="lower-content">
@@ -477,7 +490,8 @@
                 <div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="image">
                         <a href="capping-machines.html">
-                            <img src="images/capping2.png" alt="Capping Machines">
+                            <img src="images/capping2.png" alt="Capping Machines" width="500" height="333"
+                                decoding="async" loading="lazy">
                         </a>
                     </div>
                     <div class="lower-content">
@@ -502,7 +516,8 @@
                 <div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="image">
                         <a href="pumps.html">
-                            <img src="images/pump1.png" alt="Industrial Pumps">
+                            <img src="images/pump1.png" alt="Industrial Pumps" width="500" height="333"
+                                decoding="async" loading="lazy">
                         </a>
                     </div>
                     <div class="lower-content">
@@ -523,7 +538,8 @@
                 <div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="image">
                         <a href="retorts.html">
-                            <img src="images/retort1.JPG" alt="Industrial Retorts">
+                            <img src="images/retort1.JPG" alt="Industrial Retorts" width="500" height="349"
+                                decoding="async" loading="lazy">
                         </a>
                     </div>
                     <div class="lower-content">
@@ -544,7 +560,8 @@
                 <div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="image">
                         <a href="steam-boilers.html">
-                            <img src="images/steam boiler 1.jpg" alt="Steam Boilers">
+                            <img src="images/steam boiler 1.jpg" alt="Steam Boilers" width="500" height="375"
+                                decoding="async" loading="lazy">
                         </a>
                     </div>
                     <div class="lower-content">
@@ -593,7 +610,8 @@
 						<div class="footer-column col-lg-4 col-md-6 col-sm-12">
 							<div class="footer-widget logo-widget">
 								<div class="logo">
-									<a href="index.html"><img src="images/new4.png" alt="" /></a>
+									<a href="index.html"><img src="images/new4.png" alt="AM Engineering" width="895"
+											height="267" decoding="async" loading="lazy" /></a>
 								</div>
 								<div class="text">From distillation systems to bottling and capping machines, we build reliable
 								industrial solutions backed by over 50 years of experience... <a href="about.html">Read More.</a>
