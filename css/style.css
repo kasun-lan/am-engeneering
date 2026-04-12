@@ -473,7 +473,7 @@ img{
 	color:#ffaa00;
 }
 
-.preloader{ position:fixed; left:0px; top:0px; width:100%; height:100%; z-index:999999; background-color:#ffffff; background-position:center center; background-repeat:no-repeat; background-image:url(../images/icons/preloader.svg); background-size:120px;}
+.preloader{ position:fixed;inset: 0; left:0px; top:0px; width:100%; height:100%; z-index:999999; background-color:#ffffff; background-position:center center; background-repeat:no-repeat; background-image:url(../images/icons/preloader.svg); background-size:120px;}
 
 img{
 	display:inline-block;
@@ -2014,6 +2014,7 @@ img{
 
 .main-slider{
 	position:relative;
+	aspect-ratio: 16 / 9;
 }
 
 .main-slider .left-title{
@@ -2092,7 +2093,7 @@ img{
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-position:center center;
-	
+	min-height: 600px;
   
 }
 
